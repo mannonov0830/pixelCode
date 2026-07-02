@@ -13,4 +13,6 @@ CSS va responsive dizaynni amaliyotda qo'llash maqsadida yaratilmoqda.
 - 🌍 Tilni tanlash
 - 📱 Responsive dizayn
 
-![Header](src/assets/svg/logo_light.svg)
+<p align="center">
+  <img src="src/assets/svg/logo_light.svg" alt="Header" width="250">
+</p>
