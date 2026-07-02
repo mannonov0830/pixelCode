@@ -1,1 +1,0 @@
-! [Header](src/assets/svg/logo_light.svg)
