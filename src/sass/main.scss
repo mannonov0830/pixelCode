@@ -1,1 +1,15 @@
-@use './header';
+// base fayellar
+@use "./base/global" as *;
+@use "./base/reset" as *;
+@use './base/fonts' as *;
+
+// layout fayellar
+@use "./layout/container" as *;
+@use "./layout/header" as *;
+@use "./layout/footer" as *;
+
+// pages fayellar
+@use "./pages/home" as *;
+
+// utils fayellar
+@use "./utils/color" as *;
