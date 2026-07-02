@@ -14,7 +14,7 @@ CSS va responsive dizaynni amaliyotda qo'llash maqsadida yaratilmoqda.
 - 📱 Responsive dizayn
 
 <br><br>
-<br><br>
+
 
 
 <p align="center">
