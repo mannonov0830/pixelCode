@@ -12,3 +12,5 @@ CSS va responsive dizaynni amaliyotda qo'llash maqsadida yaratilmoqda.
 - 👤 Login va Sign Up tugmalari
 - 🌍 Tilni tanlash
 - 📱 Responsive dizayn
+
+![Header](src/assets/svg/logo_light.svg)
