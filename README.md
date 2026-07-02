@@ -1,7 +1,7 @@
 # PixelCode
 
-PixelCode — React yordamida yaratilayotgan zamonaviy frontend loyihasi. 
-Hozircha loyihaning Header qismi ishlab chiqilgan. Ushbu loyiha React komponentlari, 
+PixelCode — React yordamida yaratilayotgan zamonaviy frontend loyihasi.
+Hozircha loyihaning Header qismi ishlab chiqilgan. Ushbu loyiha React komponentlari,
 CSS va responsive dizaynni amaliyotda qo'llash maqsadida yaratilmoqda.
 
 ## Hozirgi imkoniyatlar
@@ -13,6 +13,6 @@ CSS va responsive dizaynni amaliyotda qo'llash maqsadida yaratilmoqda.
 - 🌍 Tilni tanlash
 - 📱 Responsive dizayn
 
-<p margin="0 auto">
+<p align="center">
   <img src="src/assets/svg/logo_light.svg" alt="Header" width="250">
 </p>
