@@ -1,13 +1,13 @@
 # PixelCode
 
-PixelCode is a modern frontend project built with React. 
-The application features a responsive design, dark/light mode, multilingual support, and a clean user interface. 
-It is designed to provide a smooth user experience while demonstrating best practices in modern React development.
+PixelCode — React yordamida yaratilayotgan zamonaviy frontend loyihasi. Hozircha loyihaning Header qismi ishlab chiqilgan. Ushbu loyiha React komponentlari, CSS va responsive dizaynni amaliyotda qo'llash maqsadida yaratilmoqda.
 
-## Features
-- ⚛️ React
-- 🎨 Modern UI/UX
-- 🌙 Dark & Light Theme
-- 🌍 Language Switcher
-- 📱 Responsive Design
-- 🔍 Search Functionality
+## Hozirgi imkoniyatlar
+
+- ⚛️ React asosida ishlab chiqilgan
+- 🎨 Zamonaviy Header dizayni
+- 🔍 Qidiruv maydoni
+- 👤 Login va Sign Up tugmalari
+- 🌍 Tilni tanlash
+- 📱 Responsive dizayn
+- 
