@@ -2,10 +2,12 @@
 .header {
   position: fixed;
   width: 100%;
+  top: 0 ;
   left: 0;
   right: 0;
   z-index: 1000;
   background-color: $bg-primary;
+  margin-bottom: 100px;
   .navbar {
     display: flex;
     align-items: center;
@@ -37,7 +39,7 @@
         background-color: $bg-input;
         padding: 8px;
         border-radius: 30px;
-        width: 390px;
+        width: 395px;
         cursor: pointer;
         border-top: 2px solid transparent;
         border-bottom: 2px solid transparent;
