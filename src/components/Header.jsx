@@ -2,7 +2,8 @@ import React from "react";
 import { IoLanguage } from "react-icons/io5";
 import { FiUser, FiSun } from "react-icons/fi";
 import { LuSearch } from "react-icons/lu";
-import logoImg from "../assets/svg/logo_light.svg";
+import { GoChevronDown } from "react-icons/go";
+import logoImg from "../assets/images/letter-p.png";
 
 const Header = () => {
   return (
@@ -11,7 +12,9 @@ const Header = () => {
         <nav className="navbar container">
           <div className="nav_Left">
             <div className="navText">
-              <img src={logoImg} alt="" />
+              <div className="pBg">
+                <img src={logoImg} alt="" />
+              </div>
               <h2>PixelCode</h2>
             </div>
             <div className="inputBg">
@@ -40,8 +43,8 @@ const Header = () => {
               <li>
                 <a href="#">React</a>
               </li>
-              <li>
-                <a href="#">More...</a>
+              <li className="moreIcon">
+                <a href="#">More <span><GoChevronDown className="GoChevronDown" /></span></a>
               </li>
             </ul>
           </div>
