@@ -20,7 +20,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        .pBg{
+        .pBg {
           display: flex;
           align-items: center;
           justify-content: center;
@@ -126,13 +126,28 @@
           }
         }
         .moreIcon {
+          position: relative;
           a {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 5px;
-            .GoChevronDown{
+            .GoChevronDown {
               font-size: 12px;
+            }
+          }
+          .dropDown {
+            position: absolute;
+            background-color: $dropDown-bg;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-left: -20px;
+            ul {
+              display: block;
+              li {
+                a {
+                }
+              }
             }
           }
         }
