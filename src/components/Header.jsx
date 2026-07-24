@@ -44,12 +44,29 @@ const Header = () => {
                 <a href="#">React</a>
               </li>
               <li className="moreIcon">
-                <a href="#">More <span><GoChevronDown className="GoChevronDown" /></span></a>
+                <a href="#">
+                  More{" "}
+                  <span>
+                    <GoChevronDown className="GoChevronDown" />
+                  </span>
+                </a>
                 <div className="dropDown">
                   <ul>
-                    <li><a href="#" className="textDrop">Terminal</a></li>
-                    <li><a href="#" className="textDrop">GitHup</a></li>
-                    <li><a href="#" className="textDrop">Git</a></li>
+                    <li>
+                      <a href="#" className="textDrop">
+                        Terminal
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" className="textDrop">
+                        GitHup
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" className="textDrop">
+                        Git
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </li>

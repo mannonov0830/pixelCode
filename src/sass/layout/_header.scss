@@ -1,13 +1,10 @@
 @use "../utils/color" as *;
 .header {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  background-color: $bg-primary;
-  margin-bottom: 100px;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  border-radius: 20px;
+  margin: 10px 10px;
+  height: auto;
   .navbar {
     display: flex;
     align-items: center;
@@ -142,6 +139,7 @@
             padding: 10px 15px;
             border-radius: 8px;
             margin-left: -20px;
+            display: none;
             ul {
               display: block;
               li {
@@ -149,6 +147,9 @@
                 }
               }
             }
+          }
+          &:hover .dropDown {
+            display: block;
           }
         }
       }
