@@ -51,26 +51,33 @@
         align-items: center;
         gap: 15px;
         padding: 18px 20px;
+        border-top: 2px solid $border-color;
+        border-bottom: 2px solid $border-color;
         border-radius: 10px;
         .GoArrowRight1 {
           font-size: 20px;
         }
         .GoArrowRight2 {
-            font-size: 25px;
+          font-size: 25px;
         }
         &:nth-child(1) {
-            padding: 20px 20px;
-            background-color: $btn-bg;
-            color: $text-primary;
-            &:hover{
-              background:inherit;
-            }
+          padding: 20px 20px;
+          background-color: $btn-bg;
+          color: $text-primary;
+          &:hover {
+            background: inherit;
+            -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.63);
+            box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.63);
+            color: $text-accent;
+          }
         }
         &:nth-child(2) {
-            &:hover{
-              background:$btn-bg;
-              color: $text-primary;
-            }
+          &:hover {
+            background: $btn-bg;
+            -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.63);
+            box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.63);
+            color: $text-primary;
+          }
         }
       }
     }
